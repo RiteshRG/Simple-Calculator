@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+  <div class="container">
+     <p class="js-cal-p calculation">Calculator</p>
+
+  <p>
+    <button onclick="
+    updatecalculater('1');
+    " class="operands-button">1</button>
+  
+    <button onclick="
+    updatecalculater('2');
+
+    " class="operands-button">2</button>
+  
+    <button onclick="
+    updatecalculater('3');
+    " class="operands-button">3</button> 
+
+    <button onclick="
+    updatecalculater(' + ');
+    " class="operators-button">+</button> 
+
+  </p>
+  
+  <p>
+    <button onclick="
+    updatecalculater('4');
+    " class="operands-button">4</button>
+  
+    <button onclick="
+    updatecalculater('5');
+    " class="operands-button">5</button>
+  
+    <button onclick="
+    updatecalculater('6');
+    " class="operands-button">6</button> 
+
+    <button onclick="
+    updatecalculater(' - ');
+    " class="operators-button">-</button>
+  </p>
+
+  <p>
+    <button onclick="
+    updatecalculater('7');
+    " class="operands-button">7</button>
+  
+    <button onclick="
+    updatecalculater('8');
+    " class="operands-button">8</button>
+  
+    <button onclick="
+    updatecalculater('9');
+    " class="operands-button">9</button>
+    
+    <button onclick="
+    updatecalculater(' * ');
+    " class="operators-button">x</button>
+  </p>
+
+  
+ <p>
+  <button onclick="
+  updatecalculater('0');
+  " class="operands-button">0</button> 
+
+  <button onclick="
+  updatecalculater('.');
+  " class="operators-button">.</button> 
+
+  <button onclick="
+  displayCalculation();
+  displayResult();
+  " class="operators-button">=</button> 
+
+  <button onclick="
+  updatecalculater(' / ');
+  " class="operators-button">/</button>
+
+ </p>
+  
+ <p>
+  <button onclick="
+  calculation = '';
+  displayCalculation();
+  console.log('All Cleared');
+  " class="clear-button">CLear</button> 
+ </p>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
